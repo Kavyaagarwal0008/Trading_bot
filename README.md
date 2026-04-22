@@ -27,7 +27,7 @@ Due to API key generation limitations, a mock execution mode is implemented. The
 ---
 
 ##  Project Structure
-
+```
 trading_bot/
 ├── bot/
 │   ├── __init__.py
@@ -41,24 +41,27 @@ trading_bot/
 ├── requirements.txt
 └── README.md
 ---
-
-## ⚙️ Setup Instructions
+```
+##  Setup Instructions
 
 ### 1️⃣ Clone or Download Project
+```bash
 git clone <[Repo-Link](https://github.com/Kavyaagarwal0008/Trading_bot)>
 cd trading_bot
-
+```
 ### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 
 *(Note: This project uses standard Python libraries only)*
 ---
 ##  How to Run
 
 Run the CLI application:
+```bash
 python cli.py
-
+```
 ---
 
 ##  Example Execution
@@ -70,10 +73,15 @@ python cli.py
 All API requests, responses, and errors are logged in:
 trading_bot.log
 2026-04-22 12:00:00 - INFO - Order Request: BTCUSDT BUY MARKET 0.01
-2026-04-22 12:00:01 - INFO - Order Response: {...}
+<img width="1499" height="252" alt="image" src="https://github.com/user-attachments/assets/ea062f44-f8f3-4920-947c-16573c504c71" />
+
 
 ##  Author
-Kavya Agarwal || kavyaagarwal580@gmail.com
+**Kavya Agarwal** 
+B.Tech CSE-AIML Student | Machine Learning Enthusiast
+
+GitHub: [https://github.com/Kavyaagarwal0008](https://github.com/Kavyaagarwal0008)
+Email: [kavyaagarwal580@gmail.com](kavyaagarwal580@gmail.com)
 
 ---
 
