@@ -27,21 +27,19 @@ Due to API key generation limitations, a mock execution mode is implemented. The
 ---
 
 ##  Project Structure
+
 trading_bot/
-│
 ├── bot/
-│ ├── init.py
-│ ├── client.py # Mock client
-│ ├── orders.py # Order execution logic
-│ ├── validators.py # Input validation
-│ ├── logging_config.py # Logging setup
+│   ├── __init__.py
+│   ├── client.py            # Mock client
+│   ├── orders.py            # Order execution logic
+│   ├── validators.py        # Input validation
+│   └── logging_config.py    # Logging setup
 │
-├── cli.py # Main CLI application
-├── trading_bot.log # Log file (generated after run)
+├── cli.py                   # Main CLI application
+├── trading_bot.log          # Log file (generated after run)
 ├── requirements.txt
-├── README.md
-
-
+└── README.md
 ---
 
 ## ⚙️ Setup Instructions
@@ -56,14 +54,14 @@ pip install -r requirements.txt
 
 *(Note: This project uses standard Python libraries only)*
 ---
-## ▶️ How to Run
+##  How to Run
 
 Run the CLI application:
 python cli.py
 
 ---
 
-## 💻 Example Execution
+##  Example Execution
 Welcome to Trading Bot
 
 Enter Symbol (e.g., BTCUSDT): BTCUSDT
@@ -73,35 +71,34 @@ Enter Quantity: 0.01
 
 Confirm Order? (y/n): y
 
-### ✅ Output
+###  Output
 Order Summary:
 Symbol: BTCUSDT
 Side: BUY
 Type: MARKET
 Quantity: 0.01
 
-✅ Order Successful!
+ Order Successful!
 Order ID: 54321
 Status: FILLED
 Executed Qty: 0.01
 Avg Price: 27450.23
 
-
 ---
 
-## 📊 Logging
+##  Logging
 
 All API requests, responses, and errors are logged in:
 trading_bot.log
 2026-04-22 12:00:00 - INFO - Order Request: BTCUSDT BUY MARKET 0.01
 2026-04-22 12:00:01 - INFO - Order Response: {...}
 
-## 👨‍💻 Author
-Kavya Agarwal
+##  Author
+Kavya Agarwal || kavyaagarwal580@gmail.com
 
 ---
 
-## 📢 Note
+##  Note
 This project is developed as part of the Primetrade.ai hiring task.
 
 Mock execution is used due to API constraints, but the system is fully designed for real-world API integration.
