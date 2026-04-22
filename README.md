@@ -62,29 +62,8 @@ python cli.py
 ---
 
 ##  Example Execution
-Welcome to Trading Bot
+<img width="831" height="753" alt="image" src="https://github.com/user-attachments/assets/df913598-4d11-4aa2-9de7-8aca4c3ea169" />
 
-Enter Symbol (e.g., BTCUSDT): BTCUSDT
-Enter Side (BUY/SELL): BUY
-Enter Order Type (MARKET/LIMIT): MARKET
-Enter Quantity: 0.01
-
-Confirm Order? (y/n): y
-
-###  Output
-Order Summary:
-Symbol: BTCUSDT
-Side: BUY
-Type: MARKET
-Quantity: 0.01
-
- Order Successful!
-Order ID: 54321
-Status: FILLED
-Executed Qty: 0.01
-Avg Price: 27450.23
-
----
 
 ##  Logging
 
