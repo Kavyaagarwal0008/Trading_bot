@@ -1,6 +1,0 @@
-2026-04-22 22:48:23,897 - INFO - Order Request: BTCUSDT BUY MARKET 0.01 None
-2026-04-22 22:48:24,902 - INFO - Order Response: {'orderId': 42372, 'status': 'FILLED', 'executedQty': '0.01', 'avgPrice': 25455.49}
-2026-04-22 22:48:35,270 - INFO - Order Request: BTCUSDT SELL LIMIT 0.01 28000
-2026-04-22 22:48:36,271 - INFO - Order Response: {'orderId': 80505, 'status': 'NEW', 'executedQty': '0.01', 'avgPrice': '28000'}
-2026-04-22 22:51:26,171 - INFO - Order Request: BTCUSDT BUY MARKET 28 None
-2026-04-22 22:51:27,172 - INFO - Order Response: {'orderId': 14680, 'status': 'FILLED', 'executedQty': '28', 'avgPrice': 29711.4}
